@@ -1,0 +1,32 @@
+body{
+  background-color: red;
+  width: 800px;
+  margin: auto;
+  margin-top: 150px;
+  font-family: arial;
+}
+
+p{
+  font-family: arial;
+  font-size: 20px;
+}
+
+h1{
+  text-align: center;
+  font-style: oblique;
+  background-color: white;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 120px;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+blockquote{
+  font-family: courier;
+  font-size: 20px;
+}
