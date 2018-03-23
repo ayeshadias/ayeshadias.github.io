@@ -17,16 +17,46 @@ h1{
   background-color: white;
   border: 5px solid black;
   padding: 20px;
-  margin: 120px;
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 h2{
   text-align: center;
   text-transform: uppercase;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: white;
+}
 
+h3{
+  color: white;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  background: black;
 }
 
 blockquote{
   font-family: courier;
   font-size: 20px;
+}
+
+ul{
+  font-family: courier;
+  font-size: 20px;
+}
+
+a{
+  font-family: courier;
+  font-size: 20px;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: white;
 }

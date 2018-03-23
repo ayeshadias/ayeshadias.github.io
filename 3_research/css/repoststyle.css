@@ -1,0 +1,24 @@
+h1{
+  font-family: helvetica;
+}
+
+h2{
+  font-family: helvetica;
+}
+
+body{
+  font-family: helvetica;
+  width: 700px;
+}
+
+a:link{
+  color: black;
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+a:visited{
+  color: red;
+  font-family: helvetica;
+  font-size: 15px;
+}
