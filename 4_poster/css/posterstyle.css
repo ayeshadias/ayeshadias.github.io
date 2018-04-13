@@ -5,9 +5,18 @@ body{
 }
 
 a{
-
+  text-align: center;
+  font-family: helvetica;
+  font-size: 20px;
 }
 
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: red;
+}
 h1{
 
 }
@@ -41,12 +50,9 @@ p{
   width: 20%;
 }
 
-.bg_red{
-  background-color: red;
-}
-
-.bg_blue{
-  background-color: blue;
+.bg_white_cent{
+  font-size: 30px;
+  text-align: center;
 }
 
 .bg_white{
