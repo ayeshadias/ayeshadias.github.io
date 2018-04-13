@@ -1,0 +1,65 @@
+body{
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+}
+
+a{
+
+}
+
+h1{
+
+}
+
+p{
+
+}
+
+.row{
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.col{
+  float: left;
+}
+
+.col1of2{
+  width: 50%;
+}
+
+.col1of3{
+  width: 33.33%;
+}
+
+.col1of4{
+  width: 25%;
+}
+
+.col1of5{
+  width: 20%;
+}
+
+.bg_red{
+  background-color: red;
+}
+
+.bg_blue{
+  background-color: blue;
+}
+
+.bg_white{
+  font-size: 30px;
+}
+
+.bg_black{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.all_caps{
+  text-transform: uppercase;
+  font-size: 45px;
+}
