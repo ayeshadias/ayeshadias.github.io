@@ -1,0 +1,77 @@
+body {
+background-color: black;
+}
+
+h1{
+
+}
+
+.header{
+  position: fixed;
+  bottom: 0px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-family: helvetica, arial;
+  letter-spacing: -0.05em;
+  width: 100%;
+  z-index: 2;
+  font-family: helvetica;
+}
+
+.nav{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  padding-top: 20px;
+  color: white;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  font-family: arial;
+  border: 2px solid black;
+  padding: 5px;
+  font-family: helvetica;
+}
+
+.show{
+  display: block;
+}
+
+.item.large {
+  width:50%;
+  height: auto;
+}
+
+.hide{
+  display: none;
+}
+
+.main{
+  overflow: hidden;
+  position: relative;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.item{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 20%;
+}
+
+.col{
+  width: 20%;
+}
+
+
+.item img{
+  max-width: 100%;
+}
