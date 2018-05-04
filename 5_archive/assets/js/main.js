@@ -16,7 +16,7 @@ $('.b-beatles').click(function(){
   $('.item').addClass('hide');
   $('.item').removeClass('show');
 
-  $('.item.beatles').addClass('show large large');
+  $('.item.beatles').addClass('show large');
   $('.item.beatles').removeClass('hide ');
 
 });
@@ -120,6 +120,16 @@ $('.b-blue').click(function(){
 
 });
 
+$('.b-green').click(function(){
+
+  $('.item').addClass('hide');
+  $('.item').removeClass('show');
+
+  $('.item.green').addClass('show large');
+  $('.item.green').removeClass('hide');
+
+});
+
 
 $('.b-orange').click(function(){
 
@@ -139,6 +149,16 @@ $('.b-red').click(function(){
 
     $('.item.red').addClass('show large');
     $('.item.red').removeClass('hide');
+
+});
+
+$('.b-purple').click(function(){
+
+    $('.item').addClass('hide');
+    $('.item').removeClass('show');
+
+    $('.item.purple').addClass('show large');
+    $('.item.purple').removeClass('hide');
 
 });
 
@@ -184,13 +204,64 @@ $('.b-front').click(function(){
 
 });
 
-$('.b-back').click(function(){
+$('.b-yellowsp').click(function(){
 
   $('.item').addClass('hide');
   $('.item').removeClass('show');
 
-  $('.item.back').addClass('show large');
-  $('.item.back').removeClass('hide');
+  $('.item.yellowsp').addClass('show large');
+  $('.item.yellowsp').removeClass('hide');
+
+});
+
+$('.b-bluesp').click(function(){
+
+  $('.item').addClass('hide');
+  $('.item').removeClass('show');
+
+  $('.item.bluesp').addClass('show large');
+  $('.item.bluesp').removeClass('hide');
+
+});
+
+$('.b-greensp').click(function(){
+
+  $('.item').addClass('hide');
+  $('.item').removeClass('show');
+
+  $('.item.greensp').addClass('show large');
+  $('.item.greensp').removeClass('hide');
+
+});
+
+$('.b-redsp').click(function(){
+
+    $('.item').addClass('hide');
+    $('.item').removeClass('show');
+
+    $('.item.redsp').addClass('show large');
+    $('.item.redsp').removeClass('hide');
+
+});
+
+$('.b-whitesp').click(function(){
+
+  $('.item').addClass('hide');
+  $('.item').removeClass('show');
+
+  $('.item.whitespsp').addClass('show large');
+  $('.item.whitesp').removeClass('hide');
+
+});
+
+
+$('.b-blacksp').click(function(){
+
+  $('.item').addClass('hide');
+  $('.item').removeClass('show');
+
+  $('.item.blacksp').addClass('show large');
+  $('.item.blacksp').removeClass('hide');
 
 });
 
