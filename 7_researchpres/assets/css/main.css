@@ -1,0 +1,21 @@
+body{
+  background: black;
+  font-family: arial;
+  color: white;
+}
+
+h1{
+  font-family: arial;
+}
+
+img{
+  width: 50%;
+}
+
+a:link{
+  color: red;
+}
+
+a:visited{
+  color: white;
+}
