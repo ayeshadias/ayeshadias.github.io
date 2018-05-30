@@ -1,26 +1,13 @@
 $(document).ready(function() {
 
 
-// Add jQuery here
+  $('.r-disp').mouseenter(function() {
+     $('.p-disp').addClass('p-show');
+   });
 
-$('.b-reset').click(function(){
-
-  $('.item').addClass('show');
-  $('.item').removeClass('hide');
-  $('.item').removeClass('large');
-
-
-});
-
-$('.b-next').click(function(){
-  $('.item').addClass('hide');
-  $('.item').removeClass('show');
-
-  $('.item.beatles').addClass('show large');
-  $('.item.beatles').removeClass('hide ');
-
-});
-
+ $('.r-disp').mouseleave(function() {
+     $('.p-disp').removeClass('p-show');
+   });
 
   $('.sample').addClass('classname');
   $('.sample').removeClass('classname');
