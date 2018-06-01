@@ -41,6 +41,17 @@ $(document).ready(function() {
   });
 
 
+  ////////////////////////////////////
+
+  $('.r-fragment').mouseenter(function() {
+   $('.p-fragment').addClass('p-show');
+ });
+
+$('.r-fragment').mouseleave(function() {
+   $('.p-fragment').removeClass('p-show');
+ });
+
+
 
   $('.sample').addClass('classname');
   $('.sample').removeClass('classname');
