@@ -13,7 +13,7 @@
 
 <style media="screen">
 
-.param6{
+a.useless{
   text-align:center;
   font-family: arial;
   font-size: 5px;
@@ -25,6 +25,75 @@
   top: 50%;
   margin-left: -60px;
   margin-top: -60px;
+  text-decoration: none;
+}
+
+a.useless:visited{
+  color: black;
+}
+
+.box1 {
+  width: 50px;
+  height:50px;
+  padding: 20px;
+  display: inline-block;
+  background-color: white;
+  border: 5px solid black;
+  animation-name:spinUG;
+  animation-duration:10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -60px;
+}
+
+.box2 {
+  width: 10px;
+  height:10px;
+  padding: 20px;
+  display: inline-block;
+  background-color: white;
+  border: 5px solid black;
+  animation-name:spinUG;
+  animation-duration:10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.box3 {
+  width: 15px;
+  height:15px;
+  padding: 20px;
+  display: inline-block;
+  background-color: white;
+  border: 5px solid black;
+  animation-name:spinUG;
+  animation-duration:10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: 500px;
+  margin-top: -100px;
+}
+
+@keyframes spinUG {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+   transform:rotate(360deg);
+  }
+
 }
 
 </style>
@@ -59,7 +128,12 @@
         <a href="https://ayeshadias.github.io/6_reader/b3_index.html">
         <div class="triangle-bottomright"></div></a>
 
-        <p class="param6">The Internet is Profoundly Useless...</p>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+
+
+        <a href="https://ayeshadias.github.io/6_reader/b4_index.html" class="useless">The Internet is Profoundly Useless...</a>
 
 </body>
 
