@@ -10,7 +10,7 @@ $(document).ready(function() {
    });
 
 
-///////////////////////////
+////////////////////////////
 
   $('.click1').click(function(){
     $('.show1').show();
@@ -97,6 +97,11 @@ $('.r-fragment').mouseleave(function() {
  });
 
 
+////////////////////////
+
+$( function() {
+   $( ".box" ).draggable();
+ } );
 
   $('.sample').addClass('classname');
   $('.sample').removeClass('classname');
