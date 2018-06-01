@@ -14,6 +14,30 @@
 
 <style media="screen">
 
+.psquare {
+	width: 25px;
+	height: 25px;
+	background: black;
+  position: fixed;
+  right: 15px;
+  top: 90px;
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 60px solid black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 60px;
+  left: 50px;
+  transform: rotate(135deg);
+}
+
 .catcircle {
 width: 50px;
 height: 50px;
@@ -169,6 +193,17 @@ background: radial-gradient(circle, #99ff33, #339933);
           <div class="circle-bottomleft"></div>
 
           <div class="triangle-bottomright"></div>
+
+          <div class="cone"></div>
+
+          <div class="psquare">  </div>
+
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+          <div class="circle5"></div>
+          <div class="circle6"></div>
 
 
   </body>

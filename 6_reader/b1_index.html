@@ -13,6 +13,31 @@
 
 <style media="screen">
 
+.psquare {
+	width: 25px;
+	height: 25px;
+	background: black;
+  position: fixed;
+  right: 90px;
+  top: 90px;
+}
+
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 60px solid black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 60px;
+  left: 50px;
+  transform: rotate(180deg);
+}
+
 .plugged{
   font-family: arial;
   font-size: 80px;
@@ -64,11 +89,15 @@
 
 <body>
 
+
+
         <h1 class="plugged">Plugged In</h1>
 
         <h2 class="lose">Losing Yourself </h2>
 
         <h3 class="web">on the web</h3>
+
+        <div class="leftsquare">  </div>
 
         <div class="triangle-topleft"></div>
 
@@ -81,13 +110,22 @@
         <a href="https://ayeshadias.github.io/6_reader/b2_index.html">
         <div class="rightsquare"></div></a>
 
-        <div class="leftsquare">  </div>
-
         <div class="downsquare"></div>
 
         <div class="circle-bottomleft"></div>
 
         <div class="triangle-bottomright"></div>
+
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+        <div class="circle6"></div>
+
+        <div class="cone"></div>
+
+        <div class="psquare"></div>
 
 
 
