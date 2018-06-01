@@ -14,11 +14,13 @@ body{
 a:link{
   color: black;
   font-family: helvetica;
-  font-size: 15px;
 }
 
 a:visited{
   color: red;
   font-family: helvetica;
-  font-size: 15px;
+}
+
+.quote{
+  font-style: italic;
 }
